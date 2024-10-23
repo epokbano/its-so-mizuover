@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: rgba(236, 129, 87, 0.993);
+}
+
+* {
+  text-align: justify;
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-size: 2.4em;
+}
+
+footer {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(202, 109, 22);
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(202, 109, 22);
+}
+
+.mizu1 {
+  border-top: 0.3vw solid rgba(236, 129, 87, 0.993);
+  border-bottom: 0.3vw solid rgb(202, 109, 22);
+  border-left: 0.7vw solid rgba(236, 129, 87, 0.993);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+}
+.mizu1 img {
+  max-width: 80%;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+.mizu1 p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 70vw;
+  font-size: 1vw;
+}
+.mizu1 .button {
+  width: 10vw;
+  height: 10vh;
+  background-color: rgb(155, 13, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mizu2 {
+  border-top: 0.3vw solid rgba(236, 129, 87, 0.993);
+  border-bottom: 0.3vw solid rgb(202, 109, 22);
+  border-left: 0.7vw solid rgba(236, 129, 87, 0.993);
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.mizu2__img1 {
+  padding-top: 300px;
+}
+.mizu2__img1 img {
+  border-radius: 50%;
+  max-width: 85%;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+.mizu2--img2 img {
+  border-radius: 50%;
+  max-width: 85%;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+.mizu2 p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22.5vw;
+  font-size: 1vw;
+  padding-left: 0.75vw;
+}
+
+.mizu3 {
+  border-bottom: 0.3vw solid rgb(202, 109, 22);
+}
+.mizu3 img {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+}
+
+.mizu4 {
+  border-top: 0.5vw solid rgba(236, 129, 87, 0.993);
+  border-bottom: 0.3vw solid rgb(202, 109, 22);
+  border-left: 0.7vw solid rgba(236, 129, 87, 0.993);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+}
+.mizu4__img1 {
+  padding-top: 25px;
+}
+.mizu4__img1 img {
+  border-radius: 50%;
+  max-width: 80%;
+  width: 25vw;
+  display: flex;
+}
+.mizu4 p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60vw;
+  font-size: 1vw;
+}
+.mizu4__braces {
+  padding-left: 5vw;
+  width: 20vw;
+}
+.mizu4__braces p {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 22.5vw;
+  font-size: 1vw;
+  border: 0.3vw solid rgb(155, 13, 44);
+  gap: 5vw;
+}
+.mizu4__div {
+  gap: 1vw;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style_index.css.map */

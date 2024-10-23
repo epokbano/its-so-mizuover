@@ -1,0 +1,34 @@
+.mizu2{
+    border-top: 0.3vw solid $color1;
+    border-bottom: 0.3vw solid $color2;
+    border-left: 0.7vw solid $color1;
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    &__img1{
+      padding-top:300px;
+      img{
+        border-radius: 50%;
+        max-width: 85%;
+        width: 30vw; 
+        display: flex;
+        flex-direction:column;
+      }
+    }
+    &--img2{
+      img{
+        border-radius: 50%;
+        max-width: 85%;
+        width: 30vw;
+        display: flex;
+        flex-direction:row;
+        }
+    } 
+    p{
+      display: flex;
+      flex-wrap: wrap;
+      width: 22.5vw;
+      font-size: 1vw;
+      padding-left: 0.75vw;
+    }
+    }

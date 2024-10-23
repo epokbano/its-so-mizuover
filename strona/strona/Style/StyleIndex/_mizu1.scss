@@ -1,0 +1,32 @@
+.mizu1{
+    border-top: 0.3vw solid $color1;
+    border-bottom: 0.3vw solid $color2;
+    border-left: 0.7vw solid $color1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 50px;
+    img{
+      max-width: 80%;
+      width: 25vw;
+      display: flex;
+      flex-direction:column;
+      }
+    p{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 70vw;
+      font-size: 1vw;
+    }
+    .button{
+      width: 10vw;
+      height: 10vh;
+      background-color: $color4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    }
+
+  

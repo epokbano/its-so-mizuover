@@ -1,0 +1,55 @@
+.mizu4{
+    
+    border-top: 0.5vw solid $color1;
+    border-bottom: 0.3vw solid $color2;
+    border-left: 0.7vw solid $color1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 50px;
+    &__img1{
+        padding-top: 25px;
+        img{
+            border-radius: 50%;
+            max-width: 80%;
+            width: 25vw; 
+            display: flex;
+        }
+     }
+
+    p{
+      
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 60vw;
+      font-size: 1vw;
+    
+    }
+    &__braces{
+        padding-left: 5vw;
+        
+        width: 20vw;
+        p{
+            
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 22.5vw;
+            font-size: 1vw;
+            border: 0.3vw solid $color4;
+            gap: 5vw;
+        }   
+            
+        
+
+
+    }
+    
+    &__div{
+        gap: 1vw;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
